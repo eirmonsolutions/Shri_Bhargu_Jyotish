@@ -15,7 +15,7 @@ const allowedOrigins = [
 ];
 
 // Middleware
-app.use(bodyParser.json());
+app.use(express.json());
 app.use(cors({
     origin: (origin, callback) => {
         if (!origin || allowedOrigins.includes(origin)) {
