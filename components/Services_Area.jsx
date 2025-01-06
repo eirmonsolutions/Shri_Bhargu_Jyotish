@@ -5,35 +5,35 @@ const Services_Area = () => {
         {
             title: "Love Problem Solution",
             description:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis animi amet eligendi iste labore et deserunt hic facere, assumenda inventore.",
+                "Love Problem Solution by Ved Parkash Shastri offers support and guidance for those facing love-related challenges, helping you navigate, heal, and move forward with confidence.",
             image: "/assets/images/services-imgs/childlessness.jpg",
             link: "/love-problem-solution",
         },
         {
             title: "One Side Love Solution",
             description:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis animi amet eligendi iste labore et deserunt hic facere, assumenda inventore.",
+                "One-Side Love Solution by Ved Parkash Shastri offers support and guidance for those dealing with unrequited love, helping you cope, heal, and move forward with confidence.",
             image: "/assets/images/services-imgs/childlessness.jpg",
             link: "/one-side-love-solution",
         },
         {
             title: "Breakup Problem",
             description:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis animi amet eligendi iste labore et deserunt hic facere, assumenda inventore.",
+                "struggling with heartbreak? Ved Parkash Shastri offers expert solutions to overcome breakup issues and bring peace back into your life. ",
             image: "/assets/images/services-imgs/childlessness.jpg",
             link: "/breakup-problem",
         },
         {
             title: "Ex Love Back",
             description:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis animi amet eligendi iste labore et deserunt hic facere, assumenda inventore.",
+                "Ex Love Back by Ved Parkash Shastri offers support and guidance for those seeking to rekindle lost love, helping you cope, heal, and reunite with confidence.",
             image: "/assets/images/services-imgs/childlessness.jpg",
             link: "/ex-love-back",
         },
         {
             title: "Family Dispute",
             description:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis animi amet eligendi iste labore et deserunt hic facere, assumenda inventore.",
+                "Family Dispute Solutions by Ved Parkash Shastri offers expert guidance to help you resolve familial conflicts, fostering harmony and understanding within your family.",
             image: "/assets/images/services-imgs/childlessness.jpg",
             link: "/family-dispute",
         },

@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="col-md-6 col-lg-3">
                             <div className="footer-box">
                                 <Link href='/'><img src="/assets/images/logo.png" alt="Logo" loading='lazy' /></Link>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quos dicta officia, doloribus velit itaque asperiores iste, odit sit at dignissimos animi voluptatibus, qui accusantium.</p>
+                                <p>Your daily astrological forecast, guided by Ved Parkash Shastri, helps you align with cosmic energies, offering direction for your actions and decisions.</p>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-2">

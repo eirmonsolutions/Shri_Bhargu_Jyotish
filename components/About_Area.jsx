@@ -15,19 +15,19 @@ const About_Area = () => {
                         <div className="col-md-6">
 
                             <div className="content-area">
-                                <h3>know about Astrology</h3>
+                                <h3>know About Astrologer</h3>
                                 <p>
-                                    t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it esdehas a more-or less normal distribution of letters,
+                                    Astrology is the ancient study of how celestial bodies like stars, planets, and the moon influence human life and the natural world. It offers insights into personality traits, relationships, and life paths through the interpretation of planetary positions at the time of one’s birth. With tools like zodiac signs, horoscopes, and natal charts, astrology provides guidance on how to align with cosmic energies.
                                 </p>
 
                                 <p>
-                                    As opposed to using 'Content here, content here', making it look likesdesdee readable English.Many desktop publishing packages and web page editors sdesnow use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will usdencover many web sites still in their web page editors sdesnow infancy.
+                                    Many people turn to astrology to find clarity, navigate challenges, or understand their purpose. It bridges the spiritual and the practical, connecting individuals to the universe. Whether you seek answers or personal growth, astrology opens a window to self-discovery. Explore its mysteries and uncover what the stars say about you.
                                 </p>
-                                <Link href="/" className="as_btn">Read More</Link>
+                                <Link href="/about" className="as_btn">Read More</Link>
 
                                 <div className="as_contact_expert">
                                     <span className="as_icon">
-                                    <FaPhoneAlt />
+                                        <FaPhoneAlt />
                                     </span>
                                     <div>
                                         <h5 className="as_white">Contact Our Expert Astrologers</h5>

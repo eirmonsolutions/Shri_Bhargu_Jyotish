@@ -14,11 +14,11 @@ const About_Page_Data = () => {
               <div className="content-area">
                 <h3>know about Astrology</h3>
                 <p>
-                  t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it esdehas a more-or less normal distribution of letters,
+                  Ved Parkash Shastri is a renowned astrologer specializing in providing effective solutions for a wide range of life problems. Whether you're facing love issues, family conflicts, business struggles, or trying to bring back a lost relationship, his expert guidance brings clarity and resolution. His services include Love Problem Solution, One Side Love Solution, Ex Love Back, Breakup Problem, Family Dispute, Grah Kalesh, Love Marriage, and Business Problem Solution.
                 </p>
 
                 <p>
-                  As opposed to using 'Content here, content here', making it look likesdesdee readable English.Many desktop publishing packages and web page editors sdesnow use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will usdencover many web sites still in their web page editors sdesnow infancy.
+                  With deep knowledge of Vedic astrology, Ved Parkash Shastri helps you align with cosmic energies, resolve challenges, and create a harmonious, prosperous life. Trust his expertise to guide you toward happiness, success, and peace in all aspects of life.
                 </p>
 
                 <div className="as_contact_expert">
