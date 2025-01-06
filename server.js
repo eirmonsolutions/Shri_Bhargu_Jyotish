@@ -3,7 +3,6 @@ const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
-require('dotenv').config();
 const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = ['http://localhost:3000', 'http://192.168.1.10:3000', 'https://mms-testing.devstock.in/'];
@@ -25,8 +24,8 @@ app.use(cors({
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+        user: 'jogpalarvind4@gmail.com',
+        pass: 'jhdehkroqenbgjam',
     },
 });
 
