@@ -3,6 +3,7 @@ const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
+require('dotenv').config();
 const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = ['http://localhost:3000', 'http://192.168.1.10:3000'];
@@ -26,8 +27,8 @@ app.use(
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'jogpalarvind4@gmail.com',
-        pass: 'jhdehkroqenbgjam',
+        user: '',
+        pass: '',
     },
 });
 
