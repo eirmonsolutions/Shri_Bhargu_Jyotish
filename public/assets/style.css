@@ -1,0 +1,1080 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+:root {
+  --background-color1: #881b21;
+  --background-color2: #fdc702;
+}
+
+/* ============================ Top Bar Css Start  ============================== */
+
+section.top-bar-area {
+  position: relative;
+  background-color: var(--background-color1);
+  overflow: hidden;
+}
+
+.main-top {
+  background: var(--background-color2);
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  padding: 18px 0;
+}
+
+.main-top h4 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  color: #000;
+}
+
+.main-top h4 a {
+  color: var(--background-color1);
+}
+
+/* ============================ Top Bar Css End  ============================== */
+
+/* ============================ Navbar Css Start  ============================== */
+
+header.navbar-main {
+  background-color: var(--background-color1);
+  padding: 8px 0;
+}
+
+.logo-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.navbar-brand img {
+  max-width: 280px;
+}
+
+ul.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+ul.navbar-nav li.nav-item a.nav-link span.navbar-dropdown-icon svg {
+  font-size: 14px;
+}
+
+ul.navbar-nav li.nav-item {
+  margin: 0 10px;
+  position: relative;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+}
+
+.navbar-btn-area .as_btn {
+  height: 42px;
+  background-color: #fdc702;
+  font-size: 16px;
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 23px;
+  position: relative;
+  font-weight: 600;
+  margin-left: 15px;
+  color: #881b21;
+  outline: none;
+  width: auto;
+  transition: all 0.2s linear;
+  border: none !important;
+}
+
+.navbar-btn-area .as_btn:before {
+  content: "";
+  left: auto;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  border-top: 20px solid #0000;
+  border-bottom: 20px solid #0000;
+  transition: all 0.2s linear;
+  border-left: none;
+  border-right: 15px solid #fdc702;
+}
+
+.navbar-btn-area .as_btn:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  border-top: 20px solid #0000;
+  border-bottom: 20px solid #0000;
+  border-left: 15px solid #fdc702;
+  transition: all 0.2s linear;
+}
+
+ul.dropdown-area {
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 20px 30px #0003;
+  position: absolute;
+  background: #fff;
+  top: 100px;
+  z-index: 1;
+  transition: all 0.4s;
+  border-radius: 5px;
+  width: 550px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  right: -140px;
+}
+
+span.navbar-dropdown-icon {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  top: -2px;
+  left: 5px;
+}
+
+ul.navbar-nav li.nav-item:hover ul.dropdown-area {
+  visibility: visible;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  z-index: 9;
+  top: 35px;
+  position: absolute;
+  transition: all 0.4s;
+}
+
+ul.navbar-nav li.nav-item ul.dropdown-area li a::after {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 3px;
+  transition: all 0.4s;
+  z-index: -1;
+  left: -10px;
+  top: 20%;
+  border-radius: 4px;
+  display: inline-block;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #881b21;
+}
+
+ul.navbar-nav li.nav-item ul.dropdown-area li a:hover:after {
+  border-radius: 4px;
+  visibility: visible;
+  transition: all 0.4s;
+  opacity: 1;
+  left: 0;
+}
+
+ul.navbar-nav li.nav-item ul.dropdown-area li a {
+  transition: all 0.4s;
+  padding: 8px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 0.6px;
+}
+
+ul.navbar-nav li.nav-item ul.dropdown-area li a:hover {
+  padding-left: 20px;
+  color: var(--background-color1);
+}
+
+.navbar-toggler svg {
+  color: #fff;
+  font-size: 50px;
+}
+
+a.navbar-brand img {
+  max-width: 260px;
+}
+
+ul.dropdown-area li {
+  flex-basis: 260px;
+}
+
+/* ============================ Navbar Css End  ============================== */
+
+/* ============================ Text Services Slide Css Start  ============================== */
+
+section.one_text {
+  overflow: hidden;
+  background: var(--background-color2);
+  height: 40px;
+  line-height: 30px;
+}
+
+section.one_text marquee {
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  color: #000;
+  text-transform: capitalize;
+  position: relative;
+  padding: 5px 0;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marquee {
+  animation: 200s linear infinite marquee;
+  animation-delay: 210s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* ============================ Text Services Slide Css End  ============================== */
+
+/* ============================ Banner Area Css Start  ============================== */
+
+section.banner-area {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-slide-box img {
+  height: 450px;
+  width: 100%;
+}
+
+/* ============================ Banner Area Css End  ============================== */
+
+/* ============================ About Area Css Start  ============================== */
+
+.about-img {
+  position: relative;
+  z-index: 1;
+  padding: 0 0 40px;
+  text-align: right;
+  width: fit-content;
+  margin-left: auto;
+}
+
+section.about-area {
+  position: relative;
+  padding: 60px 0;
+}
+
+.about-img:before {
+  position: absolute;
+  content: "";
+  left: -31px;
+  bottom: 10px;
+  border-left: 3px solid #fdc702;
+  border-bottom: 3px solid #fdc702;
+  width: 90px;
+  height: 90px;
+}
+
+.about-img:after {
+  position: absolute;
+  content: "";
+  top: 85px;
+  right: 76px;
+  background-color: #881b21;
+  width: 417px;
+  height: 448px;
+  z-index: -1;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.as_btn {
+  height: 42px;
+  background-color: #881b21;
+  font-size: 16px;
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 23px;
+  position: relative;
+  margin-left: 15px;
+  color: #fff;
+  outline: none;
+  width: auto;
+  transition: all 0.2s linear;
+  border: none !important;
+}
+
+.as_btn:before {
+  content: "";
+  left: auto;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  border-top: 20px solid #0000;
+  border-bottom: 20px solid #0000;
+  transition: all 0.2s linear;
+  border-left: none;
+  border-right: 15px solid #881b21;
+}
+.as_btn:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  border-top: 20px solid #0000;
+  border-bottom: 20px solid #0000;
+  border-left: 15px solid #881b21;
+  transition: all 0.2s linear;
+}
+
+.as_contact_expert {
+  display: flex;
+  background-color: #881b21;
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 40px;
+  align-items: center;
+  max-width: 470px;
+}
+
+.as_contact_expert .as_icon {
+  width: 65px;
+  height: 65px;
+  background-color: #fdc702;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  position: relative;
+}
+
+.as_contact_expert .as_icon:before {
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  bottom: -7px;
+  right: -7px;
+  border: 1px dashed #fdc702;
+  content: "";
+  border-radius: 100%;
+}
+
+.as_contact_expert .as_icon svg {
+  font-size: 28px;
+  color: #fff;
+}
+
+.as_contact_expert h5 {
+  font-size: 18px;
+  margin: 0 0 7px 0;
+}
+
+.as_contact_expert h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0 0 0 0;
+}
+
+.as_contact_expert:hover .as_icon:before {
+  animation: spin 9s infinite linear;
+  -webkit-animation: spin 9s infinite linear;
+  -moz-animation: spin 9s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.content-area h3 {
+  color: #881b21;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  position: relative;
+  padding-bottom: 23px;
+  margin-bottom: 20px;
+}
+
+.content-area h3::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  border-bottom: 3px solid #881b21;
+  left: 0;
+  bottom: 0;
+}
+
+.content-area p {
+  color: #5e5e5e;
+  text-align: justify;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.as_contact_expert h5 {
+  font-size: 18px;
+  margin: 0 0 7px;
+  color: #fff;
+  letter-spacing: 0.6px;
+}
+
+.as_contact_expert a.as_orange {
+  color: #fff;
+  font-size: 28px;
+}
+
+a.as_btn:hover {
+  background-color: #fdc702;
+  color: #881b21;
+  font-weight: 600;
+}
+
+.as_btn:hover:before {
+  border-right: 15px solid #fdc702;
+}
+.as_btn:hover:after {
+  border-left: 15px solid #fdc702;
+}
+
+/* ============================ About Area Css End  ============================== */
+
+/* ============================ Services Area Css STart  ============================== */
+
+section.services_area {
+  position: relative;
+  padding: 40px 0;
+  background-color: #feedab;
+}
+
+.section-heading {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section-heading h3 {
+  color: #881b21;
+  position: relative;
+  padding-bottom: 20px;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.section-heading h3:after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  border-bottom: 3px solid #881b21;
+  left: 38px;
+  bottom: 0;
+}
+
+.services-box {
+  background: #fff;
+  padding: 25px;
+  box-shadow: 0 0 10px #d6d6d6;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.services-box:before {
+  content: "";
+  background-color: #fdc702;
+  width: 47%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.services-content {
+  position: relative;
+  background-color: #881b21;
+  width: 65%;
+  padding: 20px;
+}
+
+.services-img {
+  width: 200px;
+  height: 200px;
+}
+
+.services-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.services-content h3 {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+
+.services-content p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.services-img {
+  background: #fff;
+  width: 170px;
+  height: 170px;
+  padding: 7px;
+  overflow: hidden;
+  border-radius: 3px;
+  z-index: 1;
+  transition: 1s all ease-in-out;
+}
+
+.services-content a.as_btn {
+  background-color: #fdc702;
+  margin-left: 20px;
+}
+
+.services-content .as_btn:before {
+  content: "";
+  left: auto;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  border-top: 20px solid #0000;
+  border-bottom: 20px solid #0000;
+  transition: all 0.2s linear;
+  border-left: none;
+  border-right: 15px solid #fdc702;
+}
+
+.services-content .as_btn:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  border-top: 20px solid #0000;
+  border-bottom: 20px solid #0000;
+  border-left: 15px solid #fdc702;
+  transition: all 0.2s linear;
+}
+
+/* ============================ Services Area Css End  ============================== */
+
+/* ============================ Bg Images Area Css Start  ============================== */
+
+section.bg-imges-area {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-img img {
+  width: 100%;
+}
+
+/* ============================ Bg Images Area Css End  ============================== */
+
+/* ============================ Other Services Area Css Start  ============================== */
+
+section.other-services-area {
+  position: relative;
+  padding: 40px 0;
+  background-color: #feedab;
+}
+
+.other-services-box {
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 0 10px #dddddd;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.other-services-img img {
+  width: 100%;
+  border-radius: 3px;
+  height: 160px;
+  transition: 0.5s;
+}
+
+.other-services-img {
+  margin-bottom: 10px;
+}
+
+.other-services-content h3 {
+  color: #881b21;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.other-services-content h3 a {
+  color: #881b21;
+}
+.other-services-box .other-services-content a.as_btn {
+  margin-left: 0;
+}
+/* ============================ Other Services Area Css End  ============================== */
+
+/* ============================ Contact Area Css Start  ============================== */
+
+section.contact-area {
+  position: relative;
+  padding: 40px 0;
+  background-color: #feedab;
+}
+
+.contact-form-data {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #dddddd;
+}
+
+.contact-form-data h3 {
+  color: #881b21;
+  position: relative;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.contact-form-data h3:after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  border-bottom: 3px solid #881b21;
+  left: 0;
+  bottom: 0;
+}
+
+.contact-form-data .form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.contact-form-data .form-group label.form-label {
+  color: #881b21;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.contact-form-data .form-group input.form-control {
+  box-shadow: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-form-data .form-group select.form-select {
+  box-shadow: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-form-data .form-group textarea.form-control {
+  box-shadow: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-form-data .form-group-btn button.submit-btn {
+  height: 42px;
+  background-color: #881b21;
+  font-size: 16px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  padding: 0 23px;
+  justify-content: center;
+  position: relative;
+  margin-left: 0;
+  color: #fff;
+  outline: none;
+  width: 100%;
+  text-align: center;
+  transition: all 0.2s linear;
+  border: none !important;
+}
+
+.contact-form-data .form-group-btn button.submit-btn:hover {
+  background-color: #fdc702;
+  color: #881b21;
+  font-weight: 600;
+}
+
+.contact-form-data .form-group-btn button.submit-btn:hover:before {
+  border-right: 15px solid #fdc702;
+}
+.contact-form-data .form-group-btn button.submit-btn:hover:after {
+  border-left: 15px solid #fdc702;
+}
+
+.contact-form-data .form-group-btn button.submit-btn:before {
+  content: "";
+  left: auto;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  border-top: 20px solid #0000;
+  border-bottom: 20px solid #0000;
+  transition: all 0.2s linear;
+  border-left: none;
+  border-right: 15px solid #881b21;
+}
+
+.contact-form-data .form-group-btn button.submit-btn:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  border-top: 20px solid #0000;
+  border-bottom: 20px solid #0000;
+  border-left: 15px solid #881b21;
+  transition: all 0.2s linear;
+}
+
+.contact-form-data .form-group-btn {
+  margin: 0 18px;
+}
+
+/* ============================ Contact Area Css End  ============================== */
+
+/* ============================ Breadcrumb Area Css Start  ============================== */
+
+section.breadcrumb-area {
+  background-image: url("../assets/images/breadcrumbs-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  align-content: center;
+}
+
+.breadcrumb-content h1 {
+  color: #fff;
+  letter-spacing: 0.6px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.breadcrumb-content nav ol.breadcrumb {
+  justify-content: center;
+}
+
+.breadcrumb-content nav ol.breadcrumb li.breadcrumb-item a {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+}
+
+.breadcrumb-content nav ol.breadcrumb li.breadcrumb-item.active {
+  color: #fdc702;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+}
+
+.breadcrumb-item + .breadcrumb-item:before {
+  color: #fdc702 !important;
+}
+
+/* ============================ Breadcrumb Area Css End  ============================== */
+
+/* ============================ Footer Area Css STart  ============================== */
+
+footer.tf_footer {
+  background-color: #881b21;
+  padding: 50px 0;
+}
+
+.footer-box a img {
+  width: 100%;
+}
+
+.footer-box p {
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  text-align: justify;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.footer-box h3 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.footer-box ul li {
+  padding: 3px 0;
+}
+
+.footer-box ul li a {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer-box ul li a:hover {
+  color: #fea821;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  padding-left: 6px;
+}
+
+.footer-box2 ul li {
+  padding: 6px 0;
+}
+
+.footer-box2 ul li a {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer-box2 ul li a span.icon {
+  margin-right: 10px;
+}
+
+.footer-box2 ul li a:hover {
+  color: #fdc702;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+
+.footer-box2 ul.top-social-media-icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 0;
+}
+
+.footer-box2 ul.top-social-media-icon li a {
+  background-color: #fdc702;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.footer-box2 ul.top-social-media-icon li a:hover {
+  letter-spacing: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.footer-box2 h3 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.copyright-area {
+  background-color: #fdc702;
+  padding: 10px 0;
+}
+
+.copyright-content {
+  text-align: center;
+}
+
+.copyright-content p {
+  margin-bottom: 0;
+  color: #000;
+  font-weight: 500;
+}
+
+.copyright-content p a {
+  color: #881b21;
+  font-weight: 600;
+}
+
+.footer-box2 > ul {
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+.footer-box ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+/* ============================ Footer Area Css End  ============================== */
+
+/* ============================ Services Inner Area Css Start  ============================== */
+
+section.services-inner-area {
+  position: relative;
+  padding: 50px 0;
+}
+
+.services-list-area ul {
+  margin-bottom: 0px;
+  padding-left: 0;
+}
+
+.services-list-area {
+  background: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 30px;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+  z-index: 9;
+}
+
+.services-list-area ul li {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.services-list-area ul li a {
+  position: relative;
+  display: block;
+  background: #881b21;
+  padding: 0px 40px 0px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 60px;
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
+  z-index: 1;
+}
+
+.services-list-area ul li a span.icon-right-arrow {
+  float: right;
+  font-size: 16px;
+}
+
+.services-list-area ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fdc702;
+  transform: perspective(400px) scaleY(0);
+  transform-origin: center;
+  transition: all 300ms linear;
+  transition-delay: 0.1s;
+  z-index: -1;
+}
+
+.services-list-area ul li:hover a:before {
+  transform: perspective(400px) scaleY(1);
+}
+
+.services-inner-img {
+  margin-bottom: 30px;
+}
+
+.services-inner-img img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 3px;
+}
+
+.services-inner-content h3 {
+  color: #881b21;
+  letter-spacing: 0.6px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.services-inner-content p {
+  color: #5e5e5e;
+  text-align: justify;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+aside.services-sidebar-area {
+  
+}
+
+.services-inner-content {
+  position: sticky;
+  top: 10px;
+}
+
+/* ============================ Services Inner Area Css End  ============================== */
