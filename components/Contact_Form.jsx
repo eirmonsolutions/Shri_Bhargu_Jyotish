@@ -156,7 +156,7 @@ const Contact_Form = () => {
               value={formData.message}
               onChange={handleInputChange}
               placeholder="Write a Message"
-              required
+              
             ></textarea>
           </div>
         </div>
