@@ -63,7 +63,7 @@ const Other_Services = () => {
                     </div>
                     <div className="row">
                         {services.map((service, index) => (
-                            <div className="col-md-3" key={index}>
+                            <div className="col-md-6 col-lg-3" key={index}>
                                 <div className="other-services-box">
                                     <div className="other-services-img">
                                         <img src={service.image} alt={service.title} loading="lazy" />

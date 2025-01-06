@@ -8,12 +8,12 @@ const Contact_Area = () => {
             <section className="contact-area">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6">
+                        <div className="col-md-12 col-lg-6">
                             <div className="contact-img">
                                 <img src="/assets/images/contact-img.jpg" alt="" />
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-12 col-lg-6">
                             <Contact_Form />
                         </div>
                     </div>

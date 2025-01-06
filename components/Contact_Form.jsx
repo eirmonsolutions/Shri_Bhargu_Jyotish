@@ -17,11 +17,11 @@ const Contact_Form = () => {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Form validation
     const { name, phone, email, service, message } = formData;
+
     if (!name || !phone || !email || !service || !message) {
       Swal.fire({
         icon: 'error',
@@ -31,34 +31,45 @@ const Contact_Form = () => {
       return;
     }
 
-    // Format the WhatsApp message
-    const whatsappMessage = `Hello, I am ${name}.
-          Phone: ${phone}
-          Email: ${email}
-          Service: ${service}
-          Message: ${message}`;
+    try {
+      const response = await fetch('http://localhost:5000/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    // Open WhatsApp API link
-    const whatsappURL = `https://wa.me/918091745349?text=${encodeURIComponent(
-      whatsappMessage
-    )}`;
-    window.open(whatsappURL, '_blank');
+      if (response.ok) {
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent!',
+          text: 'We will contact you soon.',
+        });
 
-    // Show success alert
-    Swal.fire({
-      icon: 'success',
-      title: 'Message Sent!',
-      text: 'We will contact you soon.',
-    });
-
-    // Reset form
-    setFormData({
-      name: '',
-      phone: '',
-      email: '',
-      service: '',
-      message: '',
-    });
+        setFormData({
+          name: '',
+          phone: '',
+          email: '',
+          service: '',
+          message: '',
+        });
+      } else {
+        const errorData = await response.json();
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: errorData.message || 'Failed to send message.',
+        });
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: 'Something went wrong. Please try again later.',
+      });
+    }
   };
 
   return (
@@ -83,7 +94,7 @@ const Contact_Form = () => {
           <div className="form-group">
             <label className="form-label">Phone No:</label>
             <input
-              type="text"
+              type="tel"
               className="form-control"
               name="phone"
               value={formData.phone}
@@ -118,9 +129,20 @@ const Contact_Form = () => {
               required
             >
               <option defaultValue>Select Services</option>
-              <option value="One">One</option>
-              <option value="Two">Two</option>
-              <option value="Three">Three</option>
+              <option value="Love Problem Solution">Love Problem Solution</option>
+              <option value="One Side Love Solution">One Side Love Solution</option>
+              <option value="Breakup Problem">Breakup Problem</option>
+              <option value="Ex Love Back">Ex Love Back</option>
+              <option value="Family Dispute">Family Dispute</option>
+              <option value="Grah Kalesh">Grah Kalesh</option>
+              <option value="Child Problem">Child Problem</option>
+              <option value="Love Marriage">Love Marriage</option>
+              <option value="Job Problem Solution">Job Problem Solution</option>
+              <option value="Business Problem Solution">Business Problem Solution</option>
+              <option value="Extra Marital Affair">Extra Marital Affair</option>
+              <option value="Husband Wife Dispute">Husband Wife Dispute</option>
+              <option value="Black Magic Removal">Black Magic Removal</option>
+              <option value="Negative Energy Removal">Negative Energy Removal</option>
             </select>
           </div>
         </div>
