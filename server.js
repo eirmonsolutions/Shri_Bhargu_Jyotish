@@ -10,18 +10,16 @@ const allowedOrigins = ['http://localhost:3000', 'http://192.168.1.10:3000', 'ht
 
 // Middleware
 app.use(bodyParser.json());
-app.use(
-    cors({
-        origin: (origin, callback) => {
-            if (!origin || allowedOrigins.includes(origin)) {
-                callback(null, true);
-            } else {
-                callback(new Error('Not allowed by CORS'));
-            }
-        },
-        credentials: true,
-    })
-);
+app.use(cors({
+    origin: (origin, callback) => {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    credentials: true,
+}));
 
 // Nodemailer setup
 const transporter = nodemailer.createTransport({
