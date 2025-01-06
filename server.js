@@ -2,7 +2,6 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -27,8 +26,8 @@ app.use(
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: process.env.EMAIL_USER, // Replace with environment variable
-        pass: process.env.EMAIL_PASS, // Replace with environment variable
+        user: 'eirmonsolutions06@gmail.com',
+        pass: 'ppdmtrkadvhrloly',
     },
 });
 
@@ -42,7 +41,7 @@ app.post('/send-email', (req, res) => {
 
     const mailOptions = {
         from: email,
-        to: 'vishaleirmon15896@gmail.com', // Corrected email address
+        to: 'vishaleirmon15896@gmail.com',
         subject: `New Contact Form Submission: ${service}`,
         text: `
       Name: ${name}
