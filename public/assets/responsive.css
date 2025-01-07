@@ -54,8 +54,8 @@
   }
 
   .banner-slide-box img {
-    height: 200px;
-  }
+    height: 180px;
+}
 
   .about-img img {
     border-radius: 3px;
@@ -92,8 +92,10 @@
     position: relative;
     right: 0;
     top: -20px;
-    width: 260px;
-  }
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+}
 
   .services-box {
     flex-direction: column;
@@ -104,8 +106,8 @@
   }
 
   .other-services-img img {
-    height: 200px;
-  }
+    height: 280px;
+}
 
   .contact-img {
     margin-bottom: 20px;
