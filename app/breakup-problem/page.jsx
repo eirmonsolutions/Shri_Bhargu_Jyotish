@@ -1,7 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import Love_Problem_Solution from '@/components/services-inner/Love_Problem_Solution';
+import Breakup_Problem from '@/components/services-inner/Breakup_Problem';
 import React from 'react';
 
 const Page = () => {
@@ -15,10 +15,16 @@ const Page = () => {
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} title="Breakup Problem" />
-      <Love_Problem_Solution />
+      <Breakup_Problem />
       <Footer />
     </>
   );
 };
 
 export default Page;
+
+export const metadata = {
+  title: "Breakup Solutions by Ved Parkash Shastri: Start Your Healing Journey",
+  description: "Breakup Solutions by Ved Parkash Shastri help you heal emotional wounds, find peace, and move forward in life with expert guidance and support.",
+  keywords: ["Breakup Solutions"],
+};

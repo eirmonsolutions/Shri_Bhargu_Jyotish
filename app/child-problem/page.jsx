@@ -1,7 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import Love_Problem_Solution from '@/components/services-inner/Love_Problem_Solution';
+import Child_Problem from '@/components/services-inner/Child_Problem';
 import React from 'react';
 
 const Page = () => {
@@ -15,10 +15,18 @@ const Page = () => {
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} title="Child Problem" />
-      <Love_Problem_Solution />
+      <Child_Problem />
       <Footer />
     </>
   );
 };
 
 export default Page;
+
+
+export const metadata = {
+  title: "Child Problem Solutions for a Better Future by Ved Shastri",
+  description: "Child Problem Solutions by Ved Parkash Shastri provide expert guidance to address behavioral, emotional, or academic issues, ensuring a brighter future.",
+  keywords: ["Child Problem Solutions"],
+};
+

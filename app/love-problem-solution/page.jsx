@@ -22,3 +22,10 @@ const Page = () => {
 };
 
 export default Page;
+
+
+export const metadata = {
+  title: "Get Expert Love Problem Solutions from Ved Parkash Shastri",
+  description: "Get expert love problem solutions from Ved Parkash Shastri to resolve relationship issues, bring harmony, and restore love and peace in your life.",
+  keywords: ["Expert Love Problem Solution"],
+};

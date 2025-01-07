@@ -9,7 +9,7 @@ const Bg_Image = ({ images }) => {
             {images.map((image, index) => (
               <div className="col-md-12" key={index}>
                 <div className="bg-img">
-                  <img src={image.src} loading="lazy" alt={image.alt} />
+                  <img src={image.src} loading="lazy" alt="Black Magic Removal by Ved Parkash Shastri" />
                 </div>
               </div>
             ))}

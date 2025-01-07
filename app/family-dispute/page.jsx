@@ -1,7 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import Love_Problem_Solution from '@/components/services-inner/Love_Problem_Solution';
+import Family_Dispute from '@/components/services-inner/Family_Dispute';
 import React from 'react';
 
 const Page = () => {
@@ -15,10 +15,18 @@ const Page = () => {
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} title="Family Dispute" />
-      <Love_Problem_Solution />
+      <Family_Dispute />
       <Footer />
     </>
   );
 };
 
 export default Page;
+
+
+export const metadata = {
+  title: "Family Dispute Solutions for Harmony by Ved Parkash Shastri",
+  description: "Family Dispute Solutions by Ved Parkash Shastri help resolve conflicts and restore harmony in your home with expert guidance and Vedic remedies.",
+  keywords: ["Family Dispute Solutions"],
+};
+

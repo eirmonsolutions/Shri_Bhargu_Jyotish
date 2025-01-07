@@ -1,7 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import Love_Problem_Solution from '@/components/services-inner/Love_Problem_Solution';
+import Love_Marriage from '@/components/services-inner/Love_Marriage';
 import React from 'react';
 
 const Page = () => {
@@ -15,10 +15,18 @@ const Page = () => {
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} title="Love Marriage" />
-      <Love_Problem_Solution />
+      <Love_Marriage />
       <Footer />
     </>
   );
 };
 
 export default Page;
+
+
+
+export const metadata = {
+  title: "Love Marriage Solutions for Couples by Ved Parkash Shastri",
+  description: "Love Marriage Solutions by Ved Parkash Shastri help couples overcome challenges, offering expert guidance for a successful and harmonious relationship.",
+  keywords: ["Love Marriage Solutions"],
+};

@@ -21,3 +21,10 @@ const Page = () => {
 };
 
 export default Page;
+
+export const metadata = {
+  title: "Ved Parkash Shastri: Expert Astrologer for Love, Family, Business & Life Problem Solutions",
+  description: "Ved Parkash Shastri offers expert Vedic astrology solutions for love, family, business, and life challenges, helping you achieve peace and success.",
+};
+
+

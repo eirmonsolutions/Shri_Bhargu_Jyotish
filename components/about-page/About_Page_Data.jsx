@@ -34,7 +34,7 @@ const About_Page_Data = () => {
             </div>
             <div className="col-md-6">
               <div className="about-img">
-                <img src="/assets/images/about1.jpg" alt="" />
+                <img src="/assets/images/about1.jpg" loading='lazy' alt="About Ved Parkash Shastri" />
               </div>
             </div>
           </div>

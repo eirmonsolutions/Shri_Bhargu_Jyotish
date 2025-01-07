@@ -1,7 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import Love_Problem_Solution from '@/components/services-inner/Love_Problem_Solution';
+import Job_Problem_Solution from '@/components/services-inner/Job_Problem_Solution';
 import React from 'react';
 
 const Page = () => {
@@ -15,10 +15,17 @@ const Page = () => {
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} title="Job Problem Solution" />
-      <Love_Problem_Solution />
+      <Job_Problem_Solution />
       <Footer />
     </>
   );
 };
 
 export default Page;
+
+
+export const metadata = {
+  title: "Career Growth: Job Problem Solutions by Ved Parkash Shastri",
+  description: "Career growth and job problem solutions by Ved Parkash Shastri help overcome challenges and guide you toward success with expert remedies and advice.",
+  keywords: ["Job Problem Solutions"],
+};

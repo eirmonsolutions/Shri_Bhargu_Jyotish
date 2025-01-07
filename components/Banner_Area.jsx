@@ -12,7 +12,7 @@ const Banner_Area = () => {
     const slideData = [
         {
             src: "/assets/images/banner-imgs/banner-1.png",
-            alt: "Halloween Slide",
+            alt: "Black Magic Removal by Ved Parkash Shastri",
         },
         
     ];

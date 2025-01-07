@@ -21,3 +21,9 @@ const Page = () => {
 };
 
 export default Page;
+
+export const metadata = {
+  title: "Contact Ved Parkash Shastri for Expert Astrological Solutions",
+  description: "Contact Ved Parkash Shastri for expert astrological solutions to overcome life's challenges and find guidance for peace, success, and happiness.",
+  keywords: ["Contact Ved Parkash Shastri "],
+};

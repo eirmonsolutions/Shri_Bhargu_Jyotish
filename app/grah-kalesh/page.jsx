@@ -1,7 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import Love_Problem_Solution from '@/components/services-inner/Love_Problem_Solution';
+import Grah_Kalesh from '@/components/services-inner/Grah_Kalesh';
 import React from 'react';
 
 const Page = () => {
@@ -15,10 +15,17 @@ const Page = () => {
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} title="Grah Kalesh" />
-      <Love_Problem_Solution />
+      <Grah_Kalesh />
       <Footer />
     </>
   );
 };
 
 export default Page;
+
+
+export const metadata = {
+  title: "Find Peace with Grah Kalesh Solutions by Ved Parkash Shastri",
+  description: "Find peace and harmony at home with Grah Kalesh solutions by Ved Parkash Shastri, offering expert guidance and remedies to resolve family conflicts.",
+  keywords: ["Grah Kalesh Solutions"],
+};

@@ -1,7 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import Love_Problem_Solution from '@/components/services-inner/Love_Problem_Solution';
+import Ex_Love_Back from '@/components/services-inner/Ex_Love_Back';
 import React from 'react';
 
 const Page = () => {
@@ -15,10 +15,16 @@ const Page = () => {
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} title="Ex Love Back" />
-      <Love_Problem_Solution />
+      <Ex_Love_Back />
       <Footer />
     </>
   );
 };
 
 export default Page;
+
+export const metadata = {
+  title: "Ex Love Back Solutions: Rebuild Your Relationship with Ved Shastri",
+  description: "Ex Love Back solution by Ved Parkash Shastri helps you rekindle your past relationship with expert guidance, healing, and cosmic remedies for a fresh start.",
+  keywords: ["Ex Love Back Solutions"],
+};

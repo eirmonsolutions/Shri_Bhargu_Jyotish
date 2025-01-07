@@ -37,14 +37,6 @@ const page = () => {
 export default page;
 
 export const metadata = {
-  title: "Astro",
-  description: "",
-  keywords: [""],
-  openGraph: {
-    title: "Astro",
-  },
-  alternates: {
-    canonical: "",
-    shortlink: "",
-  },
+  title: "Ved Parkash Shastri: Your Daily Guide to Cosmic Energy",
+  description: "Receive daily astrological guidance from Ved Parkash Shastri to align with cosmic energies and make informed decisions for a successful day.",
 };
