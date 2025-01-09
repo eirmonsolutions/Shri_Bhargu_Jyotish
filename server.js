@@ -29,12 +29,15 @@ app.use(cors({
 
 // Nodemailer setup
 const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.hostinger.com', // Replace with your Hostinger SMTP host
+    port: 465, // Use 465 for secure connection or 587 for startTLS
+    secure: true, // true for port 465, false for other ports
     auth: {
-        user: 'info@shribhargujyotish.com',
-        pass: 'Panditji@215',
+        user: 'info@shribhargujyotish.com', // Your email
+        pass: 'Panditji@215', // Your email password
     },
 });
+
 
 app.post('/send-email', async (req, res) => {
     try {
@@ -46,8 +49,8 @@ app.post('/send-email', async (req, res) => {
 
         // Configure email options
         const mailOptions = {
-            from: email,
-            to: 'vishaleirmon15896@gmail.com',
+            from: 'info@shribhargujyotish.com',
+            to: 'info@shribhargujyotish.com',
             subject: 'New Contact Form Submission',
             text: `
                 You have received a new message:
