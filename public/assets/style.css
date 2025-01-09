@@ -490,6 +490,34 @@ a.as_btn:hover {
   border-left: 15px solid #fdc702;
 }
 
+.contact-img::after {
+  background: rgba(255, 255, 255, 0.3);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  opacity: 1;
+  z-index: 9;
+  pointer-events: none;
+}
+
+.contact-img:hover:after {
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+
+.contact-img {
+  position: relative;
+}
+
+.contact-img img {
+  border-radius: 5px;
+}
+
 /* ============================ About Area Css End  ============================== */
 
 /* ============================ Services Area Css STart  ============================== */
@@ -660,6 +688,7 @@ section.other-services-area {
   border-radius: 3px;
   height: 220px;
   transition: all .5s;
+  object-fit: cover;
 }
 
 .other-services-img {
@@ -679,6 +708,15 @@ section.other-services-area {
 }
 .other-services-box .other-services-content a.as_btn {
   margin-left: 0;
+}
+
+.other-services-content p {
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: .6px;
+  text-align: center;
+  line-height: 22px;
 }
 /* ============================ Other Services Area Css End  ============================== */
 
@@ -1007,7 +1045,6 @@ footer.tf_footer {
   justify-content: center;
 }
 
-
 /* ============================ Footer Area Css End  ============================== */
 
 /* ============================ Services Inner Area Css Start  ============================== */
@@ -1106,7 +1143,6 @@ section.services-inner-area {
 }
 
 aside.services-sidebar-area {
-  
 }
 
 .services-inner-content {

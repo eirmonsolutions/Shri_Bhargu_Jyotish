@@ -54,9 +54,9 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="mailto:info@logo.com">
+                                        <Link href="mailto:info@shribhargujyotish.com">
                                             <span className="icon"><FaEnvelope /></span>
-                                            infologo.com
+                                            info@shribhargujyotish.com
                                         </Link>
                                     </li>
                                 </ul>
@@ -95,7 +95,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="copyright-content">
-                                <p>Copyright © 2024 | Website Name | Design &amp; Development By <Link href="https://eirmonsolutions.com.au/" target="_blank" rel="noopener noreferrer">Eirmon Solutions</Link></p>
+                                <p>Copyright © 2024 | Shri Bhargu Jyotish Kendra | Design &amp; Development By <Link href="https://eirmonsolutions.com.au/" target="_blank" rel="noopener noreferrer">Eirmon Solutions</Link></p>
                             </div>
                         </div>
                     </div>
