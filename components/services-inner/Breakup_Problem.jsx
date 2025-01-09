@@ -7,11 +7,7 @@ const Breakup_Problem = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -30,6 +26,11 @@ const Breakup_Problem = () => {
                                     Whether you're looking for closure, healing, or even guidance to reconcile with your ex, Ved Parkash Shastri offers tailored solutions to bring peace back into your life. Our Breakup Problem Solution helps you navigate through the emotional challenges and empowers you to move forward with positivity, self-love, and confidence. Let us guide you toward emotional healing and a brighter future, free from the pain of the past.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

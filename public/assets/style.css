@@ -249,19 +249,11 @@ section.one_text marquee {
   text-transform: capitalize;
   position: relative;
   padding: 5px 0;
-}
-
-.marquee {
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
-}
-
-.marquee {
   animation: 200s linear infinite marquee;
   animation-delay: 210s;
 }
+
+
 
 @keyframes marquee {
   0% {

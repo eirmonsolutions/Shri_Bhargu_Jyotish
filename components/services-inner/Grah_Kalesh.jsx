@@ -6,11 +6,7 @@ const Grah_Kalesh = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -29,6 +25,11 @@ const Grah_Kalesh = () => {
                                     Whether you are experiencing constant family disputes, financial difficulties, or a general sense of unease in your home, our Grah Kalesh Solution helps realign the planetary energies, bringing peace, harmony, and prosperity back into your life. Trust Ved Parkash Shastri to guide you through these challenges and create a peaceful environment where love and positivity can flourish.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

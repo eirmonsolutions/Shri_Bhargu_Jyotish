@@ -6,11 +6,7 @@ const Negative_Energy_Removal = () => {
       <section className="services-inner-area">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
-              <aside className="services-sidebar-area">
-                <Services_Sidebar />
-              </aside>
-            </div>
+            
             <div className="col-md-8">
               <div className="services-inner-content">
                 <div className="services-inner-img">
@@ -31,6 +27,11 @@ const Negative_Energy_Removal = () => {
                   Our goal is to bring harmony and positivity back into your life. Through Negative Energy Removal services, Ved Parkash Shastri ensures that you can live a life filled with peace, success, and happiness, free from the burden of negative forces. Whether it’s clearing personal blocks or purifying your living space, our services are designed to help you restore balance and create a brighter, more prosperous future.
                 </p>
               </div>
+            </div>
+            <div className="col-md-4">
+              <aside className="services-sidebar-area">
+                <Services_Sidebar />
+              </aside>
             </div>
           </div>
         </div>

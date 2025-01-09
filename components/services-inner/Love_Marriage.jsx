@@ -7,11 +7,7 @@ const Love_Marriage = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -30,6 +26,11 @@ const Love_Marriage = () => {
                                     If you're seeking approval from family, looking to resolve obstacles, or simply wanting to ensure that your love marriage is blessed with positive energy, our Love Marriage Solution offers the support you need. Let Ved Parkash Shastri guide you through the process, ensuring your love story ends in a blissful and successful union.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

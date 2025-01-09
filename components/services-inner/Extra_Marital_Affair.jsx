@@ -7,11 +7,7 @@ const Extra_Marital_Affair = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -30,6 +26,11 @@ const Extra_Marital_Affair = () => {
                                     If you're looking to repair trust, resolve conflicts, or regain stability in your marriage, Ved Parkash Shastri offers effective remedies to help you regain peace and move forward in a positive direction. Our Extra Marital Affair Solution focuses on restoring love, trust, and understanding in your relationship, guiding you toward a stronger, healthier marital connection.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

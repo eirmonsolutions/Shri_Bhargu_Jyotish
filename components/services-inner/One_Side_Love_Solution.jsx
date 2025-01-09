@@ -7,11 +7,7 @@ const One_Side_Love_Solution = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -30,6 +26,11 @@ const One_Side_Love_Solution = () => {
                                     Our One Side Love Solution service includes effective strategies such as astrological rituals, gemstone recommendations, and powerful mantras that work to align the cosmic energies in your favor. We focus on building your self-confidence, enhancing your emotional strength, and helping you develop a positive outlook toward your love life. Whether you wish to turn a one-sided love into a mutual relationship or find the strength to let go and move on, Ved Parkash Shastri offers expert guidance to transform your situation and bring balance back to your heart.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

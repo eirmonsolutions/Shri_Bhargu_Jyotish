@@ -6,11 +6,7 @@ const Family_Dispute = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -29,6 +25,11 @@ const Family_Dispute = () => {
                                     By aligning the planetary energies in your favor, Ved Parkash Shastri helps create a positive atmosphere in the home, encouraging better communication, resolution of misunderstandings, and a stronger familial bond. If you're facing ongoing family issues or looking for ways to bring peace back to your household, our Family Dispute Solution offers the support and guidance you need to heal relationships and restore happiness in your family life.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

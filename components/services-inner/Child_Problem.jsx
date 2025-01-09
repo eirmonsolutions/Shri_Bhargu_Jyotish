@@ -6,11 +6,7 @@ const Child_Problem = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -29,6 +25,11 @@ const Child_Problem = () => {
                                     With Ved Parkash Shastri's expertise, we guide you on how to create a supportive and harmonious environment for your child to thrive. Let us help you overcome the challenges you face and ensure your child grows up with peace, focus, and success in all aspects of their life.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

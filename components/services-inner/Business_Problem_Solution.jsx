@@ -6,11 +6,7 @@ const Business_Problem_Solution = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -29,6 +25,11 @@ const Business_Problem_Solution = () => {
                                     Let Ved Parkash Shastri guide you toward overcoming business challenges and achieving long-term success. Our Business Problem Solution helps create a stable, prosperous, and harmonious work environment, allowing you to thrive in your business and reach new heights.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

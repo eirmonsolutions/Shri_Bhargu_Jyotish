@@ -6,11 +6,7 @@ const Job_Problem_Solution = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -29,6 +25,11 @@ const Job_Problem_Solution = () => {
                                     Let Ved Parkash Shastri guide you with practical and spiritual solutions to clear the obstacles in your job and create the career success you desire. Our Job Problem Solution can help you achieve professional growth, stability, and fulfillment in your career.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

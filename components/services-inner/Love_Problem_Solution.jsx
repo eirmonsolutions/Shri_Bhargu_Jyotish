@@ -8,11 +8,7 @@ const Love_Problem_Solution = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -31,6 +27,11 @@ const Love_Problem_Solution = () => {
                                     With years of experience in astrology and a deep understanding of human emotions, our goal is to help you find peace, love, and happiness. We believe that love is a beautiful journey that should be nurtured with care, and with the right guidance, any problem in love can be overcome. Let us guide you through the astrological remedies that can transform your love life and bring lasting joy to your relationships.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

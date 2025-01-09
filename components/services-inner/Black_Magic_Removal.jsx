@@ -6,11 +6,7 @@ const Black_Magic_Removal = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -30,6 +26,11 @@ const Black_Magic_Removal = () => {
                                     Our mission is to guide individuals towards a life free from the shackles of dark forces, helping them regain their happiness, health, and success. With the expertise of Ved Parkash Shastri, we aim to remove the negative influences and provide long-lasting peace and harmony. Whether it’s addressing personal issues or family-related problems, Black Magic Removal services are tailored to help you regain control and transform your life into one of abundance and positivity.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

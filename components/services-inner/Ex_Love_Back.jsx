@@ -6,11 +6,7 @@ const Ex_Love_Back = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -29,6 +25,11 @@ const Ex_Love_Back = () => {
                                     Whether you seek to restore communication, rekindle lost feelings, or rebuild trust, Ved Parkash Shastri offers effective solutions to help you bring back your ex and heal the relationship. With years of experience in astrology and deep understanding of emotional dynamics, we offer powerful tools to guide you through the process of reawakening love and strengthening your bond. Let us help you navigate this emotional journey and create a fresh, loving connection with your ex.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>

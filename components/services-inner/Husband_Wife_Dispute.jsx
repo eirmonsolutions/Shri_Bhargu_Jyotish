@@ -6,11 +6,7 @@ const Husband_Wife_Dispute = () => {
             <section className="services-inner-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
-                            <aside className="services-sidebar-area">
-                                <Services_Sidebar />
-                            </aside>
-                        </div>
+                        
                         <div className="col-md-8">
                             <div className="services-inner-content">
                                 <div className="services-inner-img">
@@ -29,6 +25,11 @@ const Husband_Wife_Dispute = () => {
                                 Our goal is to help you foster love, understanding, and respect in your marriage, guiding you through the challenges and empowering both partners to work together for a harmonious and peaceful relationship. Let Ved Parkash Shastri help you overcome your disputes and restore the love and happiness in your married life.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <aside className="services-sidebar-area">
+                                <Services_Sidebar />
+                            </aside>
                         </div>
                     </div>
                 </div>
