@@ -9,8 +9,7 @@ app.use(express.json());
 
 const allowedOrigins = [
     'http://localhost:3000',
-    'http://192.168.1.10:3000',
-    'https://mms-testing.devstock.in',
+    'https://shribhargujyotish.com',
 
 ];
 

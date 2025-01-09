@@ -14,6 +14,18 @@ const Banner_Area = () => {
             src: "/assets/images/banner-imgs/banner-1.png",
             alt: "Black Magic Removal by Ved Parkash Shastri",
         },
+        {
+            src: "/assets/images/banner-imgs/banner-2.png",
+            alt: "One Side Love Solution by Ved Parkash Shastri",
+        },
+        {
+            src: "/assets/images/banner-imgs/banner-3.png",
+            alt: "Love Problem Solution by Ved Parkash Shastri",
+        },
+        {
+            src: "/assets/images/banner-imgs/banner-4.png",
+            alt: "Family Dispute",
+        },
         
     ];
 

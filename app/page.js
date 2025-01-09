@@ -11,11 +11,11 @@ import React from 'react';
 
 const page = () => {
   const firstBgImages = [
-    { src: "/assets/images/banner-imgs/banner-1.png", alt: "Banner 1" },
+    { src: "/assets/images/banner-imgs/banner-4.png", alt: "Banner 4" },
   ];
 
   const secondBgImages = [
-    { src: "/assets/images/banner-imgs/banner-1.png", alt: "Banner 2" },
+    { src: "/assets/images/banner-imgs/banner-1.png", alt: "Banner 1" },
   ];
 
   return (
