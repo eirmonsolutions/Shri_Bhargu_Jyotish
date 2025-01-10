@@ -63,8 +63,8 @@ const Footer = () => {
 
                                 <h3>Follow Us On</h3>
                                 <ul className="top-social-media-icon">
-                                    <li><Link href="https://www.facebook.com/profile.php?id=100081280647173&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><FaFacebookF /></Link></li>
-                                    <li><Link href="https://www.instagram.com/shri_bhragu?igsh=NWtwbjVzNmU1bWkw" target="_blank" rel="noopener noreferrer"><FaInstagram /></Link></li>
+                                    <li><Link href="https://www.facebook.com/shribhargujyotish" target="_blank" rel="noopener noreferrer"><FaFacebookF /></Link></li>
+                                    <li><Link href="https://www.instagram.com/shribhargujyotish" target="_blank" rel="noopener noreferrer"><FaInstagram /></Link></li>
                                 </ul>
                             </div>
 
