@@ -39,4 +39,15 @@ export default page;
 export const metadata = {
   title: "Ved Parkash Shastri: Your Daily Guide to Cosmic Energy",
   description: "Receive daily astrological guidance from Ved Parkash Shastri to align with cosmic energies and make informed decisions for a successful day.",
+  openGraph: {
+    title: "Ved Parkash Shastri: Your Daily Guide to Cosmic Energy",
+    description: "Receive daily astrological guidance from Ved Parkash Shastri to align with cosmic energies and make informed decisions for a successful day.",
+    images: [
+      {
+        url: "/assets/images/thumbnail.jpg",
+        width: 600,
+        height: 315,
+      },
+    ],
+  },
 };
