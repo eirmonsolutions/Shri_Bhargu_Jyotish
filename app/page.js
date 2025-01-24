@@ -44,7 +44,7 @@ export const metadata = {
     description: "Receive daily astrological guidance from Ved Parkash Shastri to align with cosmic energies and make informed decisions for a successful day.",
     images: [
       {
-        url: "/assets/images/thumbnail.jpg",
+        url: "https://shribhargujyotish.com/assets/images/thumbnail-img.jpg",
         width: 600,
         height: 315,
       },

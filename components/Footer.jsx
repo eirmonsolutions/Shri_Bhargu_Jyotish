@@ -4,6 +4,7 @@ import { FaPhone, FaEnvelope } from "react-icons/fa6";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
     return (
         <>
@@ -47,6 +48,12 @@ const Footer = () => {
                                 <h3>Get In Touch</h3>
                                 <ul>
 
+                                    <li>
+                                        <Link href="" >
+                                            <span className="icon"><FaLocationDot /></span>
+                                            BLOCK-28, Punjab Mata Nagar, Ludhiana - 141003
+                                        </Link>
+                                    </li>
                                     <li>
                                         <Link href="tel:+917717292608">
                                             <span className="icon"><FaPhone /></span>
