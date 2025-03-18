@@ -102,7 +102,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="copyright-content">
-                                <p>Copyright © 2024 | Shri Bhargu Jyotish Kendra | Design &amp; Development By <Link href="https://eirmonsolutions.com.au/" target="_blank" rel="noopener noreferrer">Eirmon Solutions</Link></p>
+                                <p>Copyright © 2025 | Shri Bhargu Jyotish Kendra | Design &amp; Development By <Link href="https://eirmonsolutions.com.au/" target="_blank" rel="noopener noreferrer">Eirmon Solutions</Link></p>
                             </div>
                         </div>
                     </div>
